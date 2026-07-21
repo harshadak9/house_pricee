@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify, render_template_string
 app = Flask(__name__)
 
 # Model path
-MODEL_PATH = "Linear_Reggressionmodel.pkl"
+MODEL_PATH = "Linear_Regression_model.pkl"
 
 def load_model():
     if not os.path.exists(MODEL_PATH):
